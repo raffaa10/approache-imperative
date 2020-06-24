@@ -8,13 +8,13 @@ public class ComparaisonTableau {
 		
 		// Ecrire le code permettant de compter le nombre d’éléments en commun dans ces 2
 		//	tableaux
-		boolean i = k; 
-		for (int i = 0; i <= array_1.length-1; i++ ) {
-			for (int k = 0; k <= array_2.length - 1; k++) {
-				System.out.println(array_1.length + " " + array_2.length );
-			}
-				
+		if (array_1.length - array_2.length >= 0) {
+			System.out.println(array_2.length);
 		}
+		else 	{
+			System.out.println(array_1.length);
+		}
+
 	}
 
 }
